@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-blue-600 text-white p-4 flex justify-between items-center">
       <h1 className="font-bold text-xl">SDG Task Manager</h1>
       <div className="space-x-4">
-        <NavLink to="/home" className="hover:underline">
+        <NavLink to="/" className="hover:underline">
           Home
         </NavLink>
         <NavLink to="/tasks" className="hover:underline">

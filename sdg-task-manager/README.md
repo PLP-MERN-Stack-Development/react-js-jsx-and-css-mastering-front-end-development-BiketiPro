@@ -88,6 +88,7 @@ Deployed using Vercel
 🔗 Live URL: https://your-deployment-link.vercel.app
 
 📸 Screenshots
+
 🏠 Home Page
 
 ✅ Task Manager
@@ -110,7 +111,7 @@ Feel free to fork this repository and submit a pull request with any improvement
 👤 Author
 Teddy Biketi
 💼 Full Stack Developer (React | Laravel | Flutter)
-📧 [your.email@example.com]
+📧 [tedbiketi@gmail.com]
 🌐 https://your-portfolio-link.com
 
 🏁 License
