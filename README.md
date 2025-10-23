@@ -1,70 +1,103 @@
-# React.js and Tailwind CSS Assignment
+# SDG Task Manager
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A **responsive React application** to help users manage tasks while tracking progress toward Sustainable Development Goals (SDGs). Built using **React**, **Vite**, and **Tailwind CSS**, this project demonstrates component architecture, state management, hooks usage, and API integration.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🌟 Features
 
-## Getting Started
+- Add, edit, and delete tasks
+- Mark tasks as **active**, **completed**, or **planned for the future**
+- Filter tasks by status: All, Active, Completed
+- Light/Dark theme toggle
+- Responsive design (mobile, tablet, desktop)
+- Support and Settings pages
+- API integration for external data display (example placeholder)
+- Persistent tasks using local storage
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+---
 
-## Files Included
+## 📂 Project Structure
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
-```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── components/ # Reusable UI components (Navbar, Footer, Card)
+├── pages/ # Page components (Home, TaskManager, Support, Settings)
+├── context/ # React context providers (ThemeContext)
+├── hooks/ # Custom React hooks (useLocalStorage)
+├── api/ # API integration functions
+├── utils/ # Utility functions
+├── App.jsx # Main application component
+└── main.jsx # App entry point
 
-## Submission
+yaml
+Copy code
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+---
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+## 🛠️ Installation & Setup
 
-## Resources
+1. **Clone your repository** (your GitHub Classroom repo):
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+```bash
+git clone <YOUR_REPO_URL>
+cd <YOUR_PROJECT_FOLDER>
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm run dev
+Open in browser:
+Go to http://localhost:5173
+
+⚡ Deployment
+The project is deployed on Vercel. Access it at:
+
+https://sdg-task-manager.vercel.app
+(Replace with your actual deployed URL)
+
+🖼️ Screenshots
+Home Page
+
+Task Manager Page
+
+Settings Page
+
+(Add more screenshots as needed)
+
+📖 How to Use
+Navigate to Tasks to add a new task.
+
+Mark tasks as active, completed, or planned using the status buttons.
+
+Filter tasks using the All / Active / Completed buttons.
+
+Go to Settings to toggle light/dark theme or reset all tasks.
+
+Use Support for help or guidance.
+
+🛠️ Technologies Used
+React
+
+Vite
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+Local Storage
+
+React Router DOM
+
+👨‍💻 Author
+Teddy Biketi
+
+📄 License
+This project is for educational purposes as part of the MERN Stack Development Full-Stack Training.
+
+yaml
+Copy code
