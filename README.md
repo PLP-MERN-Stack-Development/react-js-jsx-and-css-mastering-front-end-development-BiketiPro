@@ -56,9 +56,7 @@ Go to http://localhost:5173
 
 ⚡ Deployment
 The project is deployed on Vercel. Access it at:
-
-https://sdg-task-manager.vercel.app
-(Replace with your actual deployed URL)
+(https://react-js-sdg-manager.vercel.app/)
 
 🖼️ Screenshots
 Home Page
